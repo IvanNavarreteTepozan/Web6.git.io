@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="../Styles/Forms.css">
+</head>
+<body>
+    <div class="titulo"><img src="../IMG/user.png" height="35px" style="margin-right:20px;"><h1>Crear Cuenta:</h1></div>
+    <div class="Formulario">
+    <form>
+    <div class="item">
+        <p>Nombre Completo:</p>
+            <input type="text" required name="Username" placeholder="Escriba su nombre" minlength="3" maxlength="50">
+    </div>
+    <div class="item">
+        <p>Usuario:
+            <input type="text" required name="Username" placeholder="Escriba su usuario" minlength="3" maxlength="50">
+        </p>
+    </div>
+    <div class="item">
+        <p>Contraseña:
+            <input type="password" required name="Contraseña" placeholder="Escriba su contraseña" minlength="10" maxlength="50">
+        </p>
+    </div>
+    <div class="item">
+        <p>Correo:
+            <input type="email" required name="correo" placeholder="Escriba su correo" minlength="3" maxlength="50">
+        </p>
+    </div>
+    <div class="item">
+        <p>Tel:
+            <input type="number" required name="cellpadding" placeholder="Escriba su teléfono ceular" minlength="3" maxlength="50">
+        </p>
+    </div>
+    <div class="item">
+        <p>Catálogo
+            <SELECT>
+                <OPTION VALUE="nacional">
+                Nacional
+                <OPTION VALUE="internacional" SELECTED>
+                Internacional
+                <OPTION VALUE="completo">
+                Completo
+                </SELECT>
+        </p>
+    </div>
+    <div class="botones">
+        <input type="submit" value=Enviar class="boton">
+        <input type="reset" value="Restablecer" class="boton">
+    </form>
+    </div>
+    </div>
+</body>
+</html>

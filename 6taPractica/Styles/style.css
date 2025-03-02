@@ -1,0 +1,47 @@
+body{
+    background-image: url(../IMG/Fondo.jpg);
+    background-position:center;
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.Contenedor {
+    display: grid;
+    grid-template-rows: auto 1fr; 
+    grid-template-columns: 20% 80%; 
+    height: 100vh;
+}
+
+.Encabezado {
+    grid-column: 1 / -1;
+    background-color: transparent;
+    padding: 15px;
+    height: 200px;
+}
+
+.Menu {
+    background-color: transparent; 
+    padding: 15px;
+}
+
+.Cuerpo {
+    background: transparent;
+    padding: 15px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow: hidden;
+}
+.seccion {
+    overflow: hidden;
+    border-radius: 25px;
+}
